@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+header{
+    display: flex;
+    background-color: #9D73FA;
+    color: #fff;
+    padding: 20px 40px;
+    align-items: center;        
+}
+
+header img{
+    height: 59;
+    width: 61;
+}
+
+nav{
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;
+}
+ nav a:hover{
+    color: #bebebe;
+ }
+
+main section:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 10px 40px;
+} 
+
+main section:first-child h1{
+    color: #3B1CEC;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+main section:first-child p{
+    color: #3B1CEC;
+    font-size: 26px;
+    font-weight: 400;
+    max-width: 800px;
+}
+
+main section:first-child button{
+    background-color: #8A65DB;
+    color: white;
+    border: none;
+    font-weight: 200px;
+    font-size: 66px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main section:first-child button :hover{
+    background-color: #c4462d;
+}
+
+main section:first-child img{
+    border-radius: 50%;
+    width: 362px;
+    height: 346px;
+    object-fit: cover;
+}
+
+#Portfolio{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+#Portfolio div img{
+    height: 205px;
+    width: 205px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#Portfolio div h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 172;
+    gap: 30px;
+}
+
+
+#Project{
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    text-align: center;
+    background-color: #0053FA;
+    padding: 40px;
+}
+
+#Projects div div{
+    background-color: #49B0FB;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+#Project div div img{
+    height: 176px;
+    width: 266.67;
+
+}
+
+#Project div h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 172;
+    gap: 30px;
+}
+
+#Project div h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 172;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #0D00FA;
+    color: rgb(247, 243, 243);
+}
+
+#footer ol {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer ol li{
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center ;
+}
+
+footer ol li a{
+    color: #f8f8f8;
+    text-decoration: none;
+    font-weight: 700px;
+    font-size:  25px;
+}
+
+footer ol li img{
+    height: 86;
+    width: 83;
+}
+
+footer form{
+    text-align: center;
+}
+
+footer form  textarea{
+    color: #fff;
+    width: 515px;
+    height: 223px;
+    border-radius: 15px;
+    background-color: #987BF0;
+}
+
+footer ::placeholder{
+    color: #fff;
+}
+
+footer form button{
+    background-color: #987BF0;
+    color: #fff;
+    width: 425;
+    font-size: 25px;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.succes{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.disp{
+    display: none;
+}
